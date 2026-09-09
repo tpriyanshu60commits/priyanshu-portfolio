@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[calc(100vh-120px)] flex items-center justify-center py-8 sm:py-16 overflow-hidden"
+      className="relative flex items-center justify-center pt-4 sm:pt-8 pb-10 sm:pb-14 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">

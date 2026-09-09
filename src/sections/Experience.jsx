@@ -5,7 +5,7 @@ import { experienceData } from "../data/experience";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 sm:py-28 relative">
+    <section id="experience" className="py-8 sm:py-12 lg:py-14 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="WORK EXPERIENCE"

@@ -13,8 +13,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", id: "home", path: "/" },
     { name: "About", id: "about", path: "/#about" },
-    { name: "Skills", id: "skills", path: "/#skills" },
     { name: "Projects", id: "projects", path: "/#projects" },
+    { name: "Skills", id: "skills", path: "/#skills" },
     { name: "Experience", id: "experience", path: "/#experience" },
     { name: "Achievements", id: "achievements", path: "/#achievements" },
     { name: "Education", id: "education", path: "/#education" },
@@ -25,15 +25,15 @@ export default function Navbar() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
 
-      // Section spy when on home page
+      // Section spy when on home page (checked bottom to top)
       if (location.pathname === "/") {
         const sections = [
           "contact",
           "education",
           "achievements",
           "experience",
-          "projects",
           "skills",
+          "projects",
           "about",
           "home",
         ];

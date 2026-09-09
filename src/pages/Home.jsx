@@ -11,11 +11,11 @@ import Contact from "../sections/Contact";
 export default function Home() {
 
   return (
-    <div className="space-y-4 sm:space-y-8">
+    <div className="flex flex-col">
       <Hero />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Experience />
       <Achievements />
       <Education />

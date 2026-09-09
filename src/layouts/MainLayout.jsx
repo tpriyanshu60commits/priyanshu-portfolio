@@ -14,7 +14,7 @@ export default function MainLayout({ children }) {
       <Navbar />
 
       {/* Main Page Content */}
-      <main className="flex-grow pt-24 sm:pt-28 pb-16">{children}</main>
+      <main className="flex-grow pt-20 sm:pt-24 pb-4 sm:pb-8">{children}</main>
 
       {/* Footer */}
       <Footer />

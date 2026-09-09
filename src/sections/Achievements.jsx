@@ -5,7 +5,7 @@ import { achievementsData } from "../data/achievements";
 
 export default function Achievements() {
   return (
-    <section id="achievements" className="py-20 sm:py-28 relative">
+    <section id="achievements" className="py-8 sm:py-12 lg:py-14 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="RECOGNITION"

@@ -13,7 +13,7 @@ export default function SectionHeading({
 
   return (
     <div
-      className={`mb-10 md:mb-14 ${
+      className={`mb-8 sm:mb-10 md:mb-12 ${
         isCenter ? "text-center max-w-2xl mx-auto" : "max-w-2xl"
       } ${className}`}
     >
