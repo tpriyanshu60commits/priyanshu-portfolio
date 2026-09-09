@@ -1,5 +1,5 @@
 import React from "react";
-import { Trophy, Award, CheckCircle2, Sparkles, ArrowUpRight } from "lucide-react";
+import { Trophy, Award, CheckCircle2 } from "lucide-react";
 import SectionHeading from "../components/SectionHeading";
 import { achievementsData } from "../data/achievements";
 

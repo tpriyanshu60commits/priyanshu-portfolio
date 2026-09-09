@@ -1,16 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  ArrowLeft,
-  ExternalLink,
-  CheckCircle2,
-  Leaf,
-  Sparkles,
-  Zap,
-  Activity,
-  Wind,
-  Trophy,
-} from "lucide-react";
+import { ArrowLeft, ExternalLink, CheckCircle2, Leaf, Zap, Trophy } from "lucide-react";
 import Button from "../components/Button";
 import ProjectMockup from "../components/ProjectMockup";
 import ArchitectureDiagram from "../components/ArchitectureDiagram";

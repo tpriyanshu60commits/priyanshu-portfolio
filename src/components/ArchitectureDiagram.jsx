@@ -6,10 +6,8 @@ import {
   Server,
   Smartphone,
   CreditCard,
-  Cpu,
   Navigation,
   Sparkles,
-  MapPin,
   Activity,
   Layers,
 } from "lucide-react";

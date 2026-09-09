@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ExternalLink, ArrowRight, Layers } from "lucide-react";
+import { ExternalLink, ArrowRight } from "lucide-react";
 import Button from "./Button";
 import ProjectMockup from "./ProjectMockup";
 import { GithubIcon } from "./Icons";
 
-export default function ProjectCard({ project, index }) {
+export default function ProjectCard({ project }) {
   return (
     <div className="glass-card rounded-2xl sm:rounded-3xl p-5 sm:p-7 flex flex-col justify-between glass-card-hover group border border-slate-200/90 relative overflow-hidden">
       {/* Background soft ambient gradient */}

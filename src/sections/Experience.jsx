@@ -1,5 +1,5 @@
 import React from "react";
-import { Briefcase, Calendar, CheckCircle2, Building2 } from "lucide-react";
+import { Calendar, CheckCircle2, Building2 } from "lucide-react";
 import SectionHeading from "../components/SectionHeading";
 import { experienceData } from "../data/experience";
 

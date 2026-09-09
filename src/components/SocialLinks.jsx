@@ -2,7 +2,7 @@ import React from "react";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./Icons";
 
-export const socialLinksData = [
+const socialLinksData = [
   {
     name: "GitHub",
     url: "https://github.com/tpriyanshu60commits",

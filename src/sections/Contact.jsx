@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin, ArrowUpRight, Sparkles } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
 import SectionHeading from "../components/SectionHeading";
 import { GithubIcon, LinkedinIcon } from "../components/Icons";
 
